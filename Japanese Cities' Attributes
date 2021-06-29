@@ -1,0 +1,16 @@
+#Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+CITY
+_____________________________
+FIELD           | TYPE
+_____________________________
+ID              NUMBER
+NAME            VARCHAR(17)
+COUNTRYCODE     VARCHAR(3)
+DISTRICT        VARCHAR(20)
+POPULATION      NUMBER
+______________________________
+
+
+Query:
+SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
