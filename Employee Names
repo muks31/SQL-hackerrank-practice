@@ -3,3 +3,18 @@
 Input Format
 
 #The Employee table containing employee data for a company is described as follows:
+
+Employee
+_____________________________
+COLUMN           | TYPE
+_____________________________
+employee_id       Integer
+name              String
+months            Integer
+salary            Integer
+______________________________
+
+
+Query:
+
+SELECT name FROM Employee ORDER BY name ASC;
