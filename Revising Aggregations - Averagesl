@@ -1,0 +1,11 @@
+#Query the average population of all cities in CITY where District is California.
+
+Input Format
+_________________________________________________________
+CITY : ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
+
+_________________________________________________________
+
+Query:
+
+SELECT AVG(POPULATION) FROM CITY WHERE DISTRICT = 'CALIFORNIA';
