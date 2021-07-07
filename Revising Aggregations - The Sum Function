@@ -1,0 +1,10 @@
+#Query the total population of all cities in CITY where District is California.
+
+Input Format
+_________________________________________________________
+CITY : ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
+
+_________________________________________________________
+
+Query:
+SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT = 'California';
