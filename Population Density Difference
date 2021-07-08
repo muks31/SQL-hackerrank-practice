@@ -1,0 +1,10 @@
+#Query the difference between the maximum and minimum populations in CITY.
+
+Input Format
+_________________________________________________________
+CITY : ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
+
+_________________________________________________________
+
+Query:
+SELECT MAX(POPULATION) - MIN(POPULATION) FROM CITY ;
