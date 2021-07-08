@@ -1,0 +1,11 @@
+#Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+Input Format
+_________________________________________________________
+CITY : ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
+
+_________________________________________________________
+
+Query:
+SELECT FLOOR(AVG(POPULATION)) FROM CITY;
+
